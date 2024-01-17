@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/File.Validator/File.Validator/bin/Debug/net8.0
+/File.Validator/.vs/File.Validator/FileContentIndex
+/File.Validator/File.Validator/obj
+/File.Validator/File.Validator.Web/bin/Debug/net8.0
+/File.Validator/File.Validator.Web/obj
+/File.Validator/.vs/File.Validator/v17
