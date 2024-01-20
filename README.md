@@ -41,7 +41,7 @@ bool isValid = FileValidator.isValidExtension(stream, extension);
 `File.Validator.Web` provides one additional middleware for automatic file validation before request finalization. `IApplicationBuilder` interface extension from `FileExtensionValidatorMiddlewareExtension` should be used to register the middleware with `UseFileValidation`. 
 
 > [!NOTE] 
-> To use annotations, middleware should be registered after endpoing routing middleware. [!NOTE]
+> To use annotations, middleware should be registered after endpoing routing middleware. 
 
 ```c#
 // Program.cs
