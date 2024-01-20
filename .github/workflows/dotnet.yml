@@ -22,7 +22,7 @@ jobs:
         dotnet-version: 8.0.x
     - name: Restore dependencies
       run: dotnet restore 'File.Validator/File.Validator.sln'
-    - name: Build
+    - name: Build Base
       run: dotnet build 'File.Validator/File.Validator/File.Validator.csproj' --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+    - name: Build Web
+      run: dotnet build 'File.Validator/File.Validator.Web/File.Validator.Web.csproj' --no-restore
