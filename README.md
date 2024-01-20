@@ -12,9 +12,20 @@ This package determines if the received file has the original extension or if it
 | File.Validator       | Base file validator for regular use | ![Static Badge](https://img.shields.io/badge/.net%208.0-green?style=flat)     |  ![Static Badge](https://img.shields.io/badge/nuget%20-v1.0.0-blue?link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FFile.Validator%2F)     |
 | File.Validator.Web  |  .NET Core REST API Middleware and annotations for MVC controllers | ![Static Badge](https://img.shields.io/badge/.net%208.0-green?style=flat)     |  ![Static Badge](https://img.shields.io/badge/nuget%20-v1.0.0-blue?link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FFile.Validator.Web%2F)   |
 
+## Getting started
+
+Base Package
+```bash
+dotnet add package File.Validator --version 1.0.0
+```
+.NET MVC
+```bash
+dotnet add package File.Validator.Web --version 1.0.0
+```
+
 ## Usage
 
-### Base package
+## Base package
 
 Using `isValidExtension` from the _FileValidator_ class required `File.Validator` package. By providing the binary stream, and expected extension, you can determine whether file data matches, that extension.
 
