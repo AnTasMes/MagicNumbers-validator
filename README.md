@@ -1,6 +1,5 @@
 ![Static Badge](https://img.shields.io/badge/.net%208.0-green?style=flat)
-![Static Badge](https://img.shields.io/badge/nuget%20main-v1.0.0-blue?link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FFile.Validator%2F)
-![Static Badge](https://img.shields.io/badge/nuget%20web-v1.0.0-blue?link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FFile.Validator.Web%2F)
+<a href='https://www.nuget.org/packages/File.Validator/' target="_blank"><img alt='Nuget' src='https://img.shields.io/badge/1.0.0-100000?style=flat&logo=Nuget&logoColor=FFFFFF&labelColor=969696&color=0093BD'/></a>
 
 # About
 
@@ -9,8 +8,8 @@ This package determines if the received file has the original extension or if it
 
 | Package name | Description | .NET | NuGet |
 | ------------ | ----------- | ---- | ----- |
-| File.Validator       | Base file validator for regular use | ![Static Badge](https://img.shields.io/badge/.net%208.0-green?style=flat)     |  ![Static Badge](https://img.shields.io/badge/nuget%20-v1.0.0-blue?link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FFile.Validator%2F)     |
-| File.Validator.Web  |  .NET Core REST API Middleware and annotations for MVC controllers | ![Static Badge](https://img.shields.io/badge/.net%208.0-green?style=flat)     |  ![Static Badge](https://img.shields.io/badge/nuget%20-v1.0.0-blue?link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FFile.Validator.Web%2F)   |
+| File.Validator       | Base file validator for regular use | ![Static Badge](https://img.shields.io/badge/.net%208.0-green?style=flat) | <a href='https://www.nuget.org/packages/File.Validator/' target="_blank"><img alt='Nuget' src='https://img.shields.io/badge/1.0.0-100000?style=flat&logo=Nuget&logoColor=FFFFFF&labelColor=969696&color=0093BD'/></a> |
+| File.Validator.Web  |  .NET Core REST API Middleware and annotations for MVC controllers | ![Static Badge](https://img.shields.io/badge/.net%208.0-green?style=flat)     |  <a href='https://www.nuget.org/packages/File.Validator.Web/' target="_blank"><img alt='Nuget' src='https://img.shields.io/badge/1.0.0-100000?style=flat&logo=Nuget&logoColor=FFFFFF&labelColor=969696&color=0093BD'/></a>   |
 
 ## Getting started
 
