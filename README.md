@@ -54,7 +54,7 @@ Using controller annotations requires `File.Validator.Web.Annotations`.
 | ---------- | ----------- | --------- | 
 | `AllowedOnlyExtensions` | If extension NOT IN list, expect unauthorized. (still do validation) | `string[]` |
 | `IgnoredExtensions` | If extension in list, skip file validation | `string[]` |
-| `RejectedExtensions` | If extension IN list, expect unauthorized. (still do validation) | `string[]` |
+| `RejectedExtensions` | If extension IN list, expect unauthorized. (Do not do validation) | `string[]` |
 
 ```c#
 [AllowedOnlyExtensions(new string[] {"pdf"})]
