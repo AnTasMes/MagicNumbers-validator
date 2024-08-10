@@ -396,3 +396,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/File.Validator/File.Validator.MVC.Test
+/File.Validator/File.Validator.Test
