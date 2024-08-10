@@ -1,5 +1,5 @@
 ![Static Badge](https://img.shields.io/badge/.net%208.0-green?style=flat)
-<a href='https://www.nuget.org/packages/File.Validator/' target="_blank"><img alt='Nuget' src='https://img.shields.io/badge/1.0.0-100000?style=flat&logo=Nuget&logoColor=FFFFFF&labelColor=969696&color=0093BD'/></a>
+<a href='https://www.nuget.org/packages/File.Validator/' target="_blank"><img alt='Nuget' src='https://img.shields.io/badge/1.0.1-100000?style=flat&logo=Nuget&logoColor=FFFFFF&labelColor=969696&color=0093BD'/></a>
 
 # About
 
@@ -8,14 +8,14 @@ This package determines if the received file has the original extension or if it
 
 | Package name | Description | .NET | NuGet |
 | ------------ | ----------- | ---- | ----- |
-| File.Validator       | Base file validator for regular use | ![Static Badge](https://img.shields.io/badge/.net%208.0-green?style=flat) | <a href='https://www.nuget.org/packages/File.Validator/' target="_blank"><img alt='Nuget' src='https://img.shields.io/badge/1.0.0-100000?style=flat&logo=Nuget&logoColor=FFFFFF&labelColor=969696&color=0093BD'/></a> |
+| File.Validator       | Base file validator for regular use | ![Static Badge](https://img.shields.io/badge/.net%208.0-green?style=flat) | <a href='https://www.nuget.org/packages/File.Validator/' target="_blank"><img alt='Nuget' src='https://img.shields.io/badge/1.0.1-100000?style=flat&logo=Nuget&logoColor=FFFFFF&labelColor=969696&color=0093BD'/></a> |
 | File.Validator.Web  |  .NET Core REST API Middleware and annotations for MVC controllers | ![Static Badge](https://img.shields.io/badge/.net%208.0-green?style=flat)     |  <a href='https://www.nuget.org/packages/File.Validator.Web/' target="_blank"><img alt='Nuget' src='https://img.shields.io/badge/1.0.0-100000?style=flat&logo=Nuget&logoColor=FFFFFF&labelColor=969696&color=0093BD'/></a>   |
 
 ## Getting started
 
 Base Package
 ```bash
-dotnet add package File.Validator --version 1.0.0
+dotnet add package File.Validator --version 1.0.1
 ```
 .NET MVC
 ```bash
